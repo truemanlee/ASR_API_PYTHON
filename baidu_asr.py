@@ -31,9 +31,9 @@ def get_content(file_name):
     r = requests.post('http://vop.baidu.com/server_api', data=json.dumps(params))
     return r.json()
     # r['err_msg'] == 'sucess.'代表返回成功
-    # r['text']是识别出来的文字
+    # r['result']是识别出来的文字
     # r['err_msg'] == 'sucess.' means return sucessfully
-    # r['text'] is the returned text
+    # r['result'] is the returned text
     
 
 
