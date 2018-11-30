@@ -1,9 +1,7 @@
 import os
 import requests
 import base64
-import re
 import json
-import tqdm
 
 auth_params = {
     'APPID': 'xxxx',
